@@ -1,5 +1,11 @@
 # 2025-benchmark-api-db
 
+example data:
+- https://github.com/lgreski/pokemonData/blob/master/Pokemon.csv
+  - "National Pokédex that brings the total number of Pokémon up to 1,025."
+- https://github.com/Purukitto/pokemon-data.json/blob/master/pokedex.json
+- https://www.kaggle.com/datasets/rounakbanik/pokemon
+
 docker images:
 - https://hub.docker.com/_/python/tags?name=3.13-alpine
   - `docker pull --platform=linux/amd64 python:3.13-alpine` (16.02 MB)
