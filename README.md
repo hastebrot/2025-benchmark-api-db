@@ -1,5 +1,8 @@
 # 2025-benchmark-api-db
 
+guides:
+- [sdk concepts](guides/sdk-concepts.md)
+
 example data:
 - https://github.com/lgreski/pokemonData/blob/master/Pokemon.csv
   - "National Pokédex that brings the total number of Pokémon up to 1,025."
