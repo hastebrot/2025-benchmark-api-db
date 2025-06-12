@@ -6,21 +6,23 @@ example data:
 - https://github.com/Purukitto/pokemon-data.json/blob/master/pokedex.json
 - https://www.kaggle.com/datasets/rounakbanik/pokemon
 
-docker images:
+docker images
 - https://hub.docker.com/_/python/tags?name=3.13-alpine
-  - `docker pull --platform=linux/amd64 python:3.13-alpine` (16.02 MB)
+  - `docker pull --platform=linux/amd64 python:3.13-alpine` (3.13.4, 16.02 MB)
 - https://hub.docker.com/r/oven/bun/tags?name=1.2-alpine
-  - `docker pull --platform=linux/amd64 oven/bun:1.2-alpine` (41.66 MB)
+  - `docker pull --platform=linux/amd64 oven/bun:1.2-alpine` (1.2.16, 41.66 MB)
 - https://hub.docker.com/_/redis/tags?name=8-alpine
-  - `docker pull --platform=linux/amd64 redis:8-alpine` (23.2 MB)
+  - `docker pull --platform=linux/amd64 redis:8-alpine` (8.0.2, 23.2 MB)
 - https://hub.docker.com/_/mongo/tags?name=8
-  - `docker pull --platform=linux/amd64 mongo:8` (278.6 MB)
+  - `docker pull --platform=linux/amd64 mongo:8` (8.0.10, 278.6 MB)
 - https://hub.docker.com/_/postgres/tags?name=17-alpine
-  - `docker pull --platform=linux/amd64 postgres:17-alpine` (105.65 MB)
+  - `docker pull --platform=linux/amd64 postgres:17-alpine` (17.5, 105.65 MB)
 - https://hub.docker.com/r/surrealdb/surrealdb/tags?name=v2.3
-  - `docker pull --platform=linux/amd64 surrealdb/surrealdb:v2.3` (28.53 MB)
+  - `docker pull --platform=linux/amd64 surrealdb/surrealdb:v2.3` (2.3.3, 28.53 MB)
 - https://hub.docker.com/r/datacatering/duckdb/tags?name=v1.3.0
-  - `docker pull --platform=linux/amd64 datacatering/duckdb:v1.3.0` (77.55 MB)
+  - `docker pull --platform=linux/amd64 datacatering/duckdb:v1.3.0` (1.3.0, 77.55 MB)
+- https://hub.docker.com/_/golang/tags?name=1.24-alpine
+  - `docker pull --platform=linux/amd64 golang:1.24-alpine` (1.24.4, 79.23 MB)
  
 wasm repositories:
 - sqlite, https://github.com/DallasHoff/sqlocal
