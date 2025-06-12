@@ -19,6 +19,8 @@ docker images:
   - `docker pull --platform=linux/amd64 postgres:17-alpine` (105.65 MB)
 - https://hub.docker.com/r/surrealdb/surrealdb/tags?name=v2.3
   - `docker pull --platform=linux/amd64 surrealdb/surrealdb:v2.3` (28.53 MB)
+- https://hub.docker.com/r/datacatering/duckdb/tags?name=v1.3.0
+  - `docker pull --platform=linux/amd64 datacatering/duckdb:v1.3.0` (77.55 MB)
  
 wasm repositories:
 - sqlite, https://github.com/DallasHoff/sqlocal
