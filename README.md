@@ -25,6 +25,8 @@ docker images
   - `docker pull --platform=linux/amd64 golang:1.24-alpine` (1.24.4, 79.23 MB)
  
 wasm repositories:
+- sqlite, https://github.com/sqlite/sqlite-wasm
+  - `bun add -D @sqlite.org/sqlite-wasm`
 - sqlite, https://github.com/DallasHoff/sqlocal
   - `bun add -D sqlocal`
 - postgres, https://github.com/electric-sql/pglite
